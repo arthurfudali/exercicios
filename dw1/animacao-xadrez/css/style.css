@@ -1,0 +1,123 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.tabuleiro {
+    position: relative;
+    border: 1px ;
+    height: 640px;
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    background:blanchedalmond;
+    z-index: -1;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.bloco{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+.preto{
+    background: #20944d;
+}
+
+.cavalo{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: 80px;
+    left: auto;
+    right: auto;
+    animation: movimento 13s ease infinite;
+    display: flex;
+}
+
+@keyframes movimento{
+    0%{
+        top: 5px;
+        left: 160px;
+    }
+    5%{
+        top: 240px;
+        left: 160px;
+    }
+    10%{
+        top: 240px;
+        left: 240px;
+    }
+    15%{
+        top: 240px;
+        left: 240px;
+    }
+    20%{
+        top: 400px;
+        left: 240px;
+    }
+
+    25%{
+        top: 400px;
+        left: 160px;
+    }
+    30%{
+        top: 560px;
+        left: 160px;
+    }
+    35%{
+        top: 560px;
+        left: 240px;
+    }
+    40%{
+        top: 560px;
+        left: 400px;
+    }
+
+    45%{
+        top: 640px;
+        left: 400px;
+    }
+    50%{
+        top: 640px;
+        left: 560px;
+    }
+    55%{
+        top: 560px;
+        left: 560px;
+    }
+    60%{
+        top: 400px;
+        left: 560px;
+    }
+    65%{
+        top: 400px;
+        left: 480px;
+    }
+    70%{
+        top: 240px;
+        left: 480px;
+    }
+    75%{
+        top: 240px;
+        left: 560px;
+    }
+    80%{
+        top: 80px;
+        left: 560px;
+    }
+    85%{
+        top: 80px;
+        left: 480px;
+    }
+    100%{
+        top: 5px;
+        left: 160px;
+    }
+    }
+    
+}

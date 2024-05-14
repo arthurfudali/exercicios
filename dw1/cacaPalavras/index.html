@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Caça-Palavras</title>
+</head>
+<body>
+    <script>
+        matriz = new Array;
+        matriz = 
+        [
+            ["Y","","","","Y","E","","","D","","","","","","T"],
+            ["E","","","","","","","","A","","M","","","","O"],
+            ["E","","","","","","","","M","","B","","","","X"],
+            ["Z","","T","L","O","P","","","N","","D","","","","I"],
+            ["U","","","","","","","",".","","T","","","","C"],
+            ["S","","","","","D","O","I","S","","F","","","","I"],
+            ["","","I","","","","","","","","","A","","","T"],
+            ["","","G","","","","","","","","","R","","","Y"],
+            ["","","O","","","","","","","","","O","","",""],
+            ["","","R","","","","","","","","","E","","",""],
+            ["","","","","","","","","","","","T","","",""],
+            ["","","T","R","E","N","C","H","","","","E","","",""],
+            ["","T","H","E","W","A","L","L","","","","M","","",""],
+            ["","","","","","","","","","","","","","",""],
+            ["N","E","V","R","M","I","N","D","","","","","","",""],
+        ];
+
+        window.onload = function(){
+            for(let node of document.querySelectorAll("td")){
+                if(node.textContent != ""){
+                    node.className = "selected";
+                }
+                else{
+                    let charcode = Math.round(65 + Math.random() * 25)
+                    node.textContent = String.fromCharCode(charcode)
+                }
+            }
+        }
+
+        document.write("<h1>Atividade do Caça-Palavras com o tema: Albums de música </h1> <table border='2' align='center'>");
+        for (linha = 0; linha < 15; linha++){
+            document.write("<tr>")
+            for(coluna = 0; coluna < 15; coluna++){
+                document.write("<td>" + matriz[linha][coluna] + "</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>")
+    </script>
+    <h2>Albums No caça-palavras: </h2>
+    <div class="container">
+    <div class="row row-cols-3">
+    <div class="col">    
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/yeezus.jpeg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">YEEZUS</h4>
+            <p class="card-text">Kanye West</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/ye.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">YE</h4>
+            <p class="card-text">Kanye West</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/trench.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">TRENCH</h4>
+            <p class="card-text">Twenty One Pilots</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/toxicity.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">TOXICITY</h4>
+            <p class="card-text">Sistem Of A Down</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/tlop.png" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">THE LIFE OF PABLO</h4>
+            <p class="card-text">Kanye West</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/omuro.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">THE WALL</h4>
+            <p class="card-text">Pink Floyd</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/nevermind.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">NEVERMIND</h4>
+            <p class="card-text">Nirvana</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/mbdtf.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">MY BEAULTIFUL DARK TWISTED FANTASY</h4>
+            <p class="card-text">Kanye West</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/igor.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">IGOR</h4>
+            <p class="card-text">Tyler, the creator</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/dois.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">DOIS</h4>
+            <p class="card-text">Legião Urbana</p>
+          </div>
+        </div>
+        <br>
+    </div>
+    <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/damn.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">DAMN.</h4>
+            <p class="card-text">Kendrick Lamar</p>
+          </div>
+        </div>
+        <br>
+    </div>
+
+</div>
+</body>
+</html>

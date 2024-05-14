@@ -1,0 +1,117 @@
+body{
+    background-color: #ff1a1a;
+}
+h1 {
+text-align: center;
+color: aliceblue;
+font-family: 'Courier New', Courier, monospace;
+font-size: 40px;
+}
+p.p1{
+    text-align:left;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #66ff99;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 2px blue;
+    letter-spacing: 2px;
+}
+p.p2{
+    text-align:left;
+    color: #66ff99;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 2px blue;
+    text-indent: 20px;
+    border-style: dotted;
+    border-radius: 9px;
+}
+p.p3{
+    text-align:left;
+    color: #66ff99;
+    text-shadow: 0px 0px 2px greenyellow;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 30px;
+}
+p.p4{
+    text-align:left;
+    color: #66ff99;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-indent: 40px;
+}
+p.p5{
+    text-align:left;
+    color: #66ff99;
+    font-size: 25px;
+    font-family: "Audiowide", sans-serif;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 2px greenyellow;
+    text-indent: 50px;
+}
+p.p6{
+    text-align:left;
+    color: #66ff99;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-indent: 60px;
+}
+p.p7{
+    text-align:left;
+    color: #66ff99;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-indent: 70px;
+}
+p.p8{
+    text-align:left;
+    color: #66ff99;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-indent: 80px;
+}
+p.p9{
+    text-align:left;
+    color: #66ff99;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-indent: 90px;
+}
+p.p10{
+    text-align:left;
+    color: #66ff99;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-indent: 100px;
+}
+p.p11{
+    text-align:left;
+    color: #66ff99;
+    font-size: 25px;
+    font-family: monospace;
+    text-transform: capitalize;
+    text-indent: 110px;
+}
+p.p12{
+    text-align:left;
+    color: #66ff99;
+    font-size: 25px;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-shadow: 0px 2px black;
+    text-overflow: clip;
+    font-style: oblique;
+    text-indent: 120px;
+}
