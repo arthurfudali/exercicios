@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px){
+    img{
+        filter: brightness(1);
+    }
+}
+@media only screen and (min-width: 600px){
+    img{
+        filter: brightness(3);
+    }
+}
+@media only screen and (min-width: 768px){
+    img{
+        filter: brightness(6);
+    }
+}
+@media only screen and (min-width: 992px){
+    img{
+        filter: brightness(9);
+    }
+}
+@media only screen and (min-width: 1200px){
+    img{
+        filter: brightness(12);
+    }
+}
