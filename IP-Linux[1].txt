@@ -1,0 +1,74 @@
+// FUNCIONAMENTO //
+etec - usuário; prefixo
+@ - separa o usuário da maquina;		
+etec-terminal - maquina - sufixo;
+~ - significa que está na pasta home do usuário etec;		
+c:/ - raiz do windows;
+/ - raiz do Linux;
+www - pasta htdocs;
+
+// Permissões //
+Todo arquivo que começa com . é um arquivo oculto
+"d" - diretório
+"-" - arquivo
+"r" - read/ler um aquivo ou diretório
+"w" - write/escrever/alterar um aquivo ou diretório
+"x" - executar um aquivo ou diretório
+
+0 - - -
+1 - - x
+2 - w -
+3 - w x
+4 r - -
+5 r - x
+6 r w -
+7 r w x
+
+logo, um arquivo com permissão:
+
+   U   G   O
+D|RWX|R-X|R-X = 755
+
+U = user/usuário;
+G = group/grupo;
+O = others/outros;
+
+// COMANDOS //
+chmod -R - muda as permissões de um arquivo dentro de um diretório;
+chmod - muda as permissões de todos os arquivos de um diretório;
+mnt - salva os arquivos de um pendrive;
+ls - dir do Linux - diferença estética;
+ls -l - mostra todos os arquivos dentro do diretório junto dos metadados(todas as informações do arquivo);
+ls -a - mostra os arquivos ocultos dentro do diretório;
+ls -al - é o conjunto dos dois comandos; //Variação do ls mais usada// 
+ls -Ral ou -laR ou -alR - mostra as pastas e subpastas;
+ls -alt - mostra os arquivos do diretório pela ordem de criação mais recente;
+ls -altr - mostra os arquivos do diretório pela ordem de criação mais antiga;
+| more - funciona em qualquer comando, faz com que execute o comando anterior pausadamente
+ctrlC - Cancela a execução de qualquer comando;
+Super Usuário Root - usuário de desenvolvedor;
+su - entrar no usuário root
+clear - cls do Linux - limpa a tela;
+# - aviso que o usuário tem status de root;
+cd .. - sair da pasta
+mkdir - cria pasta - se houver espaço mas não haver "" criará várias pastas com base nos espaços;
+touch - criar arquivos
+rm -rf - deleta toda a raiz de diretórios escolhidos;
+rm -rf * - apaga todos os arquivos dentro da pasta;
+kernel panic - erro total da maquina;
+editor - notepad;
+cp index.hmtl /home/etec/Downloads/  - "copiar para" + caminho do  diretório escolhido;
+mv + o nome do arquivo + o caminho daonde mover - move o arquivo; 
+sudo apt-get install lynx - utilizar sites no prompt de comando;
+lynx url - entrar no site escolhido;
+sudo shutdown -h now - desliga o Linux pelo prompt de comando;
+sudo shutdown -r now - reinicia o Linux pelo prompt;
+sudo - Super Usuário do Domínio;
+date - mostra a data e o horário;
+df - mostra tudo sobre o HD;
+exit - sai do usuário logado;
+find - pesquisa no computador baseado no caminho. Ex;
+find / - pesquisa dentro da raiz;
+find / -name - pesquisa dentro da raiz um nome;
+find / -name index.html - irá mostrar todos os arquivos com esse exato nome;
+find / -name index* - irá mostrar todos os arquivos com nomes começados com "index"; 

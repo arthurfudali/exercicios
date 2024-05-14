@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="javascript">
+
+        tipo = prompt("Digite o tipo: ");
+        if(tipo == "filme")
+        {
+            document.write("voce escolheu o filme: <br>");
+            filme = prompt("digite o nome do filme:");
+            qtf = prompt("quantas vezes repetir");
+            for(x = 1; x<= 10; x++)
+            {
+            if(filme == "MORBIUS")
+            {
+                document.write("ITS MORBIN TIME<br>");
+                document.write("<img src='morbius.jpg' alt='' height=200> <br>")   
+            }
+            else if(filme == "shrek")
+            {
+                document.write("melhor pra fora do que pra dentro <br>");
+                document.write("<img src='shrek.png' alt='' height=200> <br>")   
+            }
+            
+            else
+            {
+                documen.write("escolha um filme melhor");
+            }
+            }
+        }
+        else if (tipo == "serie")
+        {
+            document.write("voce escolheu a serie: <br> ");
+            serie = prompt("digite o nome da serie:");
+            qtf = prompt("quantas vezes repetir");
+            for(x = 1; x<= 10; x++)
+            {
+            if(serie == "obi wan")
+            {
+                document.write("HELLO THERE!<br>");
+                document.write("<img src='hello.jpeg' alt='' height=200> <br>")   
+            }
+            else if(serie == "breakin bad")
+            {
+                document.write("say my name!<br>");
+                document.write("<img src='name.jpg' alt='' height=200> <br>")   
+            }
+            else
+            {
+                documen.write("escolha uma serie melhor");
+            }
+            }
+        }
+        else
+        {
+            document.write("tipo invalido");
+        }
+    </script>
+</body>
+</html>
