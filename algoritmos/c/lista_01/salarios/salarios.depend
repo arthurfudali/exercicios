@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1713224502 source:c:\users\fatec-dsm1\onedrive - fatec centro paula souza\documentos\algoritmos\c\salarios\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

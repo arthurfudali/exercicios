@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+#mapa{
+    background: url("../imgs/mapa.webp");
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+}
+#personagem{
+    background: url("../imgs/direita.png") -0px -341px;
+    height:86px;
+    width:76px;
+    z-index: 2;
+    animation: mov-div 30s infinite, andar 30s steps(3) infinite linear ;
+    /* top: 620px;
+    left: 40px; */
+}
+@keyframes mov-div {
+    0% {margin-top: 620px;}
+    6.99%{ margin-top: 620px; margin-left: 450px; background: url("../imgs/direita.png") -0px -341px; }
+    7%{ margin-top: 620px; margin-left: 450px; background: url("../imgs/cima.png") -0px -207px; }
+    14%{ margin-top: 380px; margin-left: 450px;  }
+    21%{ margin-top: 380px; margin-left: 920px;  }
+    28%{ margin-top: 240px; margin-left: 920px;  }
+    35%{ margin-top: 240px; margin-left: 1600px;  }
+    42%{ margin-top: 800px; margin-left: 1600px;  }
+    49%{ margin-top: 800px; margin-left: 920px;  }
+    56%{ margin-top: 750px; margin-left: 920px;  }
+    63%{ margin-top: 750px; margin-left: 600px;  }
+    70%{ margin-top: 700px; margin-left: 600px;  }
+    77%{ margin-top: 700px; margin-left: 480px;  }
+    84%{ margin-top: 620px; margin-left: 480px;  }
+    100%{margin-top: 620px;}
+}
+@keyframes andar {
+    0%{background-position-x: -0px;}
+
+    7%{background-position-x: -179px;}
+
+    7.1%{background-position-x: -0px;}
+    7.1%{background-position-y: -86px;}
+    13%{background-position-x: -179px;}
+    13%{background-position-y: -86px;}
+    
+    
+    100%{background-position-x: -179px;}
+}

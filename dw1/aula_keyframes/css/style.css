@@ -1,0 +1,42 @@
+body{
+    background: #ba1ba1;
+}
+.animacao{
+    width: 200px;
+    height: 200px;
+    background: #1b7aba;
+    border-radius: 50%;
+    position: relative;
+    animation: movimentacao 30s infinite;
+    /* background: url("../images.jpg"); */
+}
+.gato{
+    width: 200px;
+    height: 200px;
+    background: url("../images.jpg");
+    position: relative;
+}
+
+@keyframes movimentacao {
+    0% {margin-left: 0px}
+    25%{margin-left: 200px;}
+    50%{margin-left: 200px; margin-top: 200px;}
+    75%{margin-left: 0px; margin-top: 200px;}
+    100%{margin-left: 0px;}
+}
+
+/* @keyframes animacao {
+    0%{margin-left: 0px;}
+    10%{margin-left: 300px;}
+    20%{margin-left: 300px; margin-top: 200px;}
+    30%{margin-left: 200px; margin-top: 200px;}
+    40%{margin-left: 200px; margin-top: 300px;}
+    50%{margin-left: 1000px; margin-top: 300px;}
+    60%{margin-left: 1000px; margin-top: 600px;}
+    70%{margin-left: 700px; margin-top: 600px;}
+    80%{margin-left: 700px; margin-top: 500px;}
+    85%{margin-left: 200px; margin-top: 500px;}
+    90%{margin-left: 200px; margin-top: 1000px;}
+    95%{margin-left: 50px; margin-top: 1000px;}
+    100%{margin-left: 0px; }
+} */

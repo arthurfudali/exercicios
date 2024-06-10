@@ -1,0 +1,12 @@
+.anima_div{
+    background: url(sprites_megaman_-running.png) -150px -600px;
+    height: 500px;
+    width: 500px;
+    animation: anima_sprite 2s steps(5) infinite;
+}
+@keyframes anima_sprite {
+    50% {background-position-x: -2860px ;}
+    100% {background-position-x: -2860px}
+    100% {background-position-y: -630px}
+    
+}

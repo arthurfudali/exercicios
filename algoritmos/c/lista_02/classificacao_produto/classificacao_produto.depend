@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1713837434 source:c:\users\fatec-dsm1\onedrive - fatec centro paula souza\documentos\algoritmos\c\lista_02\classificacao_produto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

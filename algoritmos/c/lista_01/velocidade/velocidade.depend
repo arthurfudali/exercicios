@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1713224911 source:c:\users\fatec-dsm1\onedrive - fatec centro paula souza\documentos\algoritmos\c\velocidade\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

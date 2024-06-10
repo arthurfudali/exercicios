@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    
+    heroisM = ["homem aranha", "homem de ferro"];
+    heroisF = ["flash", "wonder woman"];
+    universo = ["marvel", "dc"];
+    x = prompt("Digite um universo");
+
+    if(x == "marvel"){
+        document.writeln("Os herois disponíveis são: <br>");
+        for(x in heroisM){
+            document.writeln(heroisM[x] + "<br>");
+        }
+    }
+    if(x == "dc"){
+        document.writeln("Os herois disponíveis são: <br>");
+        for(x in heroisF){
+            document.writeln(heroisF[x] + "<br>");
+        }
+    }
+    else{
+        document.writeln("Esse universo não existe");
+    }
+    
+
+</script>
+</body>
+</html>

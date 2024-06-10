@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1717802077 source:c:\users\fatec-dsm1\onedrive - fatec centro paula souza\documentos\algoritmos\c\lista_02\repeticao3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+
